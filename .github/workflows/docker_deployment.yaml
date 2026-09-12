@@ -2,12 +2,13 @@ name: Docker Workflow
 
 on:
   push:
-  - branch: main
+  - branches: 
+      main
   workflow_dispatch: 
 
 env:
     CONTAINER_REGISTRY: docker.io
-    IMAGE_NAME: resume
+    IMAGE_NAME: web-app
 
 jobs: 
   docker_build: 
