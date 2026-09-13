@@ -10,7 +10,7 @@ env:
     CONTAINER_REGISTRY: docker.io
     IMAGE_NAME: web-app
 
-jobs: 
+jobs:
   docker_build: 
     runs-on: ubuntu-latest
     steps:
